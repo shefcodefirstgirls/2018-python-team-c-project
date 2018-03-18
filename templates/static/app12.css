@@ -1,0 +1,28 @@
+
+
+h1 {
+  color:black;
+  margin:0;
+  font-size: 1.5em;
+  font-weight: 200;
+  font-family: "Lucida Handwriting";
+  padding-left: 20px;
+}
+
+body {
+  background-image: url(coffee.jpg);
+  background-size: cover;
+  height:700px;
+}
+
+nav ul {
+  list-style: none;
+  font-family: "Lucida Handwriting", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
