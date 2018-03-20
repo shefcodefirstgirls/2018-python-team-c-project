@@ -1,0 +1,121 @@
+body{
+  font-family: "Lucida Handwriting", sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  position:relative;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Lucida Handwriting", sans-serif;
+  font-weight: 100;
+  margin:12;
+}
+
+p{
+  font-family: "Garamond", serif;
+  font-size: 20px;
+}
+/**Header Navigation**/
+header .navbar{
+  padding: 10px 0;
+}
+
+header .navbar-default{
+  background-color: transparent;
+  border:none;
+}
+
+header .navbar-default .navbar-nav a{
+  color:black;
+  padding: 19px 28px;
+}
+
+header .navbar-default .navbar-nav a:hover{
+  color: black;
+}
+
+/**Navbar brand**/
+header .navbar-brand h1{
+  color:black;
+  margin:0;
+  font-size: 1.5em;
+  font-weight: 200;
+  font-family: "Lucida Handwriting";
+  padding-left: 20px;
+}
+
+
+
+/**Navbarc ollapse**/
+header .navbar-collapse{
+  background-color: transparent;
+}
+
+/**nav inbody**/
+
+
+article{
+  padding:30px;
+}
+
+
+
+
+/**jumbotron**/
+.jumbotron{
+  background-image: url(coffee.jpg);
+  background-size: cover;
+  height:700px;
+ }
+
+
+.jumbotron h2{
+  font-size: 2.3em;
+  color: black;
+  font-family: "Lucida Handwriting";
+}
+
+
+ .jumbotron .title{
+   text-align: center;
+   padding-top:250px;
+   font-family: "Garamond";
+ }
+
+/**Footer Navigation**/
+footer .navbar-default{
+  background: transparent;
+  font-size: 12px;
+  padding-bottom: 0;
+  border: none;
+}
+
+img{
+  max-width: 1200px;
+}
+
+
+/**Page**/
+
+#about{
+  background-color: #ceebfe;
+  height: 800px;
+  text-align: center;
+
+}
+.page{
+  padding:50px 0;
+}
+
+#contact{
+  height: 100%;
+}
+
+.page h2, h3, h4, h5, h6{
+text-align: center;
+  margin:30px;
+}
+
+#social{
+  padding-top:100px;
+}
