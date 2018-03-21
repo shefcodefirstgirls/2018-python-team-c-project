@@ -17,6 +17,11 @@ def get_feedback():
 
   return render_template("feedback.html", form_data=data)
 
+ @app.route("/feedback/Dreams Come Ture", methods=["POST"])
+ def go_back():
+     return render_template("index.html")
+
+
 # Passing in "debug=True" as an (keyword) argument to app.run(...) will make your Flask powered
 # server/application refreshes automatically when you make any changes to this file.
 """
